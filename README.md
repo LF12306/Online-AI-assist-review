@@ -6,8 +6,7 @@
 [在线食用链接](https://blog.yediao.dpdns.org/2025/06/21/在线AI刷题辅助复习.html)
 
 
-## 请先把提示词和划了重点的复习资料喂给AI生成代码
-请按照以下步骤操作
+## 请按照以下步骤操作
 ![](../img/1.jpg)
 ![](../img/2.jpg)
 deepseek、GPT、Gemini、grok我都试过，效果都挺不错的
