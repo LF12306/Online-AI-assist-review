@@ -17,7 +17,7 @@
       box-sizing: border-box;
       resize: vertical;
     }
-    button {
+    green-button {
       margin-top: 10px;
       padding: 10px 24px;
       font-size: 16px;
@@ -28,11 +28,25 @@
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
-    button:hover {
+    green-button:hover {
       background-color: #45a049;
     }
+    
     #exam-content {
       margin: 20px;
+    }
+    .check-multi-button {
+      margin-top: 8px;
+      padding: 6px 14px;
+      font-size: 14px;
+      background-color: #3a82f7;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .check-multi-button:hover {
+      background-color: #2e6ed0;
     }
   </style>
 </head>
@@ -41,10 +55,26 @@
     <h3>粘贴 HTML 试题内容：</h3>
     <textarea id="html-input" placeholder="请将 HTML 代码粘贴到这里..."></textarea>
     <br />
-    <button onclick="loadQuestions()">确定</button>
+    <green-button onclick="loadQuestions()">确定</green-button>
   </div>
 
   <div id="exam-content"></div>
+<div style="text-align: center; margin: 30px;">
+  <green-button onclick="submitAnswers()" style="padding: 12px 24px; font-size: 16px; background-color: #2196f3; color: white; border: none; border-radius: 6px; cursor: pointer;">
+    提交试卷
+  </green-button>
+</div>
+
+<div id="results" style="display: none; margin: 30px; text-align: center;">
+  <h3>得分结果</h3>
+  <div style="font-size: 18px; margin: 10px 0;">
+    您的得分：<span id="score" style="font-weight: bold;"></span> 分
+  </div>
+  <div style="width: 80%; margin: 10px auto; background: #ddd; height: 20px; border-radius: 10px;">
+    <div id="progressBar" style="height: 20px; background: #4caf50; border-radius: 10px; width: 0%; transition: width 0.5s;"></div>
+  </div>
+  <div id="resultDetails" style="margin-top: 10px; color: #555;"></div>
+</div>
 
   <script>
     function loadQuestions() {
@@ -70,5 +100,6 @@
       }, 100);
     }
   </script>
+
 </body>
 </html>
