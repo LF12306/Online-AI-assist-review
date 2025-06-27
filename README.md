@@ -11,8 +11,8 @@
 
 
 ## 请按照以下步骤操作
-![](../img/1.jpg)
-![](../img/2.jpg)
+![](https://github.com/LF12306/Online-AI-assist-review/blob/main/img/1.jpg)
+![](https://github.com/LF12306/Online-AI-assist-review/blob/main/img/2.jpg)
 deepseek、GPT、Gemini、grok我都试过，效果都挺不错的。
 
 复习资料里面最好标记了重点，这样AI可以针对性地出题。
@@ -20,7 +20,7 @@ deepseek、GPT、Gemini、grok我都试过，效果都挺不错的。
 然后把AI生成的代码复制进[题目生成框](https://blog.yediao.dpdns.org/2025/06/21/在线AI刷题辅助复习.html)里。
 
 就可以刷生成的题目了。
-![](../img/3.jpg)
+![](https://github.com/LF12306/Online-AI-assist-review/blob/main/img/3.jpg)
 刷完之后只需要让AI再随机生成一下新的题目复制进去就能继续刷新题了。
 
 
